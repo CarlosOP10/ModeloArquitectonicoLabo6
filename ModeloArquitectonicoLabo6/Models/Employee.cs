@@ -10,7 +10,7 @@ namespace ModeloArquitectonicoLabo6.Models
         [Key]
         public int EmployeeId { get; set; }
         [Column(TypeName = "nvarchar(250)")]
-        [Required(ErrorMessage = "This field is required.")]
+        [Required(ErrorMessage = "Este campo es requerido.")]
         [DisplayName("Full Name")]
         public string FullName { get; set; }
         [Column(TypeName = "varchar(10)")]
